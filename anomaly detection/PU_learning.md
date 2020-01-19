@@ -28,3 +28,6 @@ b)、使用正负样本来训练标准分类器并将其应用于剩余的未标
 - 这里值得一提的关于PU learning的最新一个发展是文献 Towards Positive Unlabeled Learning for Parallel Data Mining: A Random Forest Framework 中提出的一种算法。
 根据作者所述，“The proposed framework, termed PURF (Positive Unlabeled Random Forest), is able to learn from positive and unlabeled instances and achieve comparable classification performance with RF trained by fully labeled data through parallel computing according to experiments on both synthetic and real-world UCI datasets… This framework combines PU learning techniques including widely used PU information gain (PURF-IG) and newly developed PU Gini index (PURF-GI) with an extendable parallel computing algorithm (i.e. RF).”
 更重要地是，作者提到他们已经“implemented PURF with Python based on the scikit-learn package,” 因此，如果代码能够开源的话，这将会是一个令人期待的工具。
+
+- test 公式
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
